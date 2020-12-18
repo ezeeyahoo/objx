@@ -8,6 +8,10 @@ go:
 matrix:
   allow_failures:
     - go: master
+  incude:
+    - arch: ppc64le
+      go: master
+ 
 fast_finish: true
 
 env:
